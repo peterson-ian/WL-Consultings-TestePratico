@@ -7,9 +7,6 @@ WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
-ENV DB_CONNECTION_STRING=Host=host.docker.internal;Port=5432;Username=user;Password=password;Database=finance_db
-ENV JWT_SECRET_KEY=kM61.4}Oy\Z{=zsazsQbzQ<hc+Vjv79YNn!d1p8e2-3SOi.2Z.}5N
-
 # Esta fase é usada para compilar o projeto de serviço
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
