@@ -1,0 +1,6 @@
+@WL_Consultings_TestePratico_HostAddress = http://localhost:5070
+
+GET {{WL_Consultings_TestePratico_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
